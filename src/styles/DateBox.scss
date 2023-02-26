@@ -1,0 +1,19 @@
+@import 'colors';
+
+
+.date-box{
+    display: flex;
+    >span{
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        >input{
+            font-size: 1.2rem;
+            padding: 0.5rem;
+            border-radius: 0.3rem;
+            border-width: 0.05rem;
+            border-color: #c6c4c4;
+        }
+    }
+}

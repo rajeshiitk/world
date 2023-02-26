@@ -1,0 +1,44 @@
+@import 'colors';
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 6fr  1fr;
+    height: 5rem;
+    box-shadow: 0 0 1rem rgba(55, 54, 54,0.5);
+
+
+    >div{
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        justify-content: space-evenly;
+
+        >img{
+            width: 10rem;
+        }
+
+        >a{
+            text-decoration: none;
+            color: $black;
+            font-size: 1.5rem;
+        }
+
+
+        >button{
+            border: none;
+            outline: none;
+            color:$white ;
+            background-color: $red;
+            padding: 0.7rem; 
+            font-size: 1.3rem;   
+            border-radius: 0.3rem;
+        }
+        
+    }
+}
+
+.mid{
+    margin: 0 rem;
+}
+
+
